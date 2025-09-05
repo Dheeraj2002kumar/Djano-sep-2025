@@ -1,5 +1,7 @@
 {% load static %}
 
+{% static "img/place" as baseUrl %}
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -26,7 +28,8 @@
     <link rel="stylesheet" href="{% static 'css/animate.css' %}">
     <link rel="stylesheet" href="{% static 'css/slick.css' %}">
     <link rel="stylesheet" href="{% static 'css/slicknav.css' %}">
-    <link rel="stylesheet" href="{% static 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css' %}">
+    <link rel="stylesheet"
+        href="{% static 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css' %}">
 
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
@@ -57,11 +60,11 @@
                                         <ul id="navigation">
                                             <li><a class="active" href="index.html">home</a></li>
                                             <li><a href="about.html">About</a></li>
-                                            <li><a class="" href="travel_destination.html">Destination</a></l/li>
+                                            <li><a class="" href="travel_destination.html">Destination</a></l /li>
                                             <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                        <li><a href="destination_details.html">Destinations details</a></li>
-                                                        <li><a href="elements.html">elements</a></li>
+                                                    <li><a href="destination_details.html">Destinations details</a></li>
+                                                    <li><a href="elements.html">elements</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">blog <i class="ti-angle-down"></i></a>
@@ -180,7 +183,7 @@
                                 </select>
                             </div>
                             <div class="search_btn">
-                                <button class="boxed-btn4 " type="submit" >Search</button>
+                                <button class="boxed-btn4 " type="submit">Search</button>
                             </div>
                         </form>
                     </div>
@@ -189,7 +192,7 @@
         </div>
     </div>
     <!-- where_togo_area_end  -->
-    
+
     <!-- popular_destination_area_start  -->
     <div class="popular_destination_area">
         <div class="container">
@@ -197,7 +200,8 @@
                 <div class="col-lg-6">
                     <div class="section_title text-center mb_70">
                         <h3>Popular Destination</h3>
-                        <p>Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words.</p>
+                        <p>Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit
+                            hella wolf moon beard words.</p>
                     </div>
                 </div>
             </div>
@@ -208,8 +212,9 @@
                             <img src="{% static 'img/destination/1.png' %}" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Italy <a href="travel_destination.html">  07 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">Italy <a href="travel_destination.html"> 07 Places</a>
+                            </p>
+
                         </div>
                     </div>
                 </div>
@@ -219,8 +224,9 @@
                             <img src="{% static 'img/destination/2.png' %}" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Brazil <a href="travel_destination.html">  03 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">Brazil <a href="travel_destination.html"> 03 Places</a>
+                            </p>
+
                         </div>
                     </div>
                 </div>
@@ -230,8 +236,9 @@
                             <img src="{% static 'img/destination/3.png' %}" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">America <a href="travel_destination.html">  10 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">America <a href="travel_destination.html"> 10
+                                    Places</a> </p>
+
                         </div>
                     </div>
                 </div>
@@ -241,8 +248,9 @@
                             <img src="{% static 'img/destination/4.png' %}" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Nepal <a href="travel_destination.html">  02 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">Nepal <a href="travel_destination.html"> 02 Places</a>
+                            </p>
+
                         </div>
                     </div>
                 </div>
@@ -252,8 +260,9 @@
                             <img src="{% static 'img/destination/5.png' %}" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Maldives <a href="travel_destination.html">  02 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">Maldives <a href="travel_destination.html"> 02
+                                    Places</a> </p>
+
                         </div>
                     </div>
                 </div>
@@ -263,8 +272,9 @@
                             <img src="{% static 'img/destination/6.png' %}" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Indonesia <a href="travel_destination.html">  05 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">Indonesia <a href="travel_destination.html"> 05
+                                    Places</a> </p>
+
                         </div>
                     </div>
                 </div>
@@ -291,12 +301,12 @@
                                 <div class="row no-gutters">
                                     <div class="col-lg-9 col-md-8">
                                         <div class="newsletter_field">
-                                            <input type="email" placeholder="Your mail" >
+                                            <input type="email" placeholder="Your mail">
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-4">
                                         <div class="newsletter_btn">
-                                            <button class="boxed-btn4 " type="submit" >Subscribe</button>
+                                            <button class="boxed-btn4 " type="submit">Subscribe</button>
                                         </div>
                                     </div>
                                 </div>
@@ -315,28 +325,35 @@
                 <div class="col-lg-6">
                     <div class="section_title text-center mb_70">
                         <h3>Popular Places</h3>
-                        <p>Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words.</p>
+                        <p>Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit
+                            hella wolf moon beard words.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
+
+                <!-- use for loop to make dynamic card -->
+                {% for dest in dests %}
+
                 <div class="col-lg-4 col-md-6">
                     <div class="single_place">
                         <div class="thumb">
-                            <img src="{% static 'img/place/1.png' %}" alt="">
-                            <a href="#" class="prise">$500</a>
+                            <img src="{{baseUrl}}/{{dest.img}}" alt="">
+                            <a href="#" class="prise">${{dest.price}}</a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html"><h3>California</h3></a>
-                            <p>United State of America</p>
+                            <a href="destination_details.html">
+                                <h3>{{dest.name}}</h3>
+                            </a>
+                            <p>{{dest.desc}}</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <a href="#">(20 Review)</a>
                                 </span>
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
@@ -346,136 +363,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_place">
-                        <div class="thumb">
-                            <img src="{% static 'img/place/2.png' %}" alt="">
-                            <a href="#" class="prise">$500</a>
-                        </div>
-                        <div class="place_info">
-                            <a href="destination_details.html"><h3>Korola Megna</h3></a>
-                            <p>United State of America</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
-                                </span>
-                                <div class="days">
-                                    <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_place">
-                        <div class="thumb">
-                            <img src="{% static 'img/place/3.png' %}" alt="">
-                            <a href="#" class="prise">$500</a>
-                        </div>
-                        <div class="place_info">
-                            <a href="destination_details.html"><h3>London</h3></a>
-                            <p>United State of America</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
-                                </span>
-                                <div class="days">
-                                    <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_place">
-                        <div class="thumb">
-                            <img src="{% static 'img/place/4.png' %}" alt="">
-                            <a href="#" class="prise">$500</a>
-                        </div>
-                        <div class="place_info">
-                            <a href="destination_details.html"><h3>Miami Beach</h3></a>
-                            <p>United State of America</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
-                                </span>
-                                <div class="days">
-                                    <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_place">
-                        <div class="thumb">
-                            <img src="{% static 'img/place/5.png' %}" alt="">
-                            <a href="#" class="prise">$500</a>
-                        </div>
-                        <div class="place_info">
-                            <a href="destination_details.html"><h3>California</h3></a>
-                            <p>United State of America</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
-                                </span>
-                                <div class="days">
-                                    <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_place">
-                        <div class="thumb">
-                            <img src="{% static 'img/place/6.png' %}" alt="">
-                            <a href="#" class="prise">$500</a>
-                        </div>
-                        <div class="place_info">
-                            <a href="destination_details.html"><h3>Saintmartine Iceland</h3></a>
-                            <p>United State of America</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
-                                </span>
-                                <div class="days">
-                                    <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+                {% endfor %}
+                <!-- use for loop to make dynamic card -->
+
+                
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -554,7 +446,8 @@
                                         <div class="author_thumb">
                                             <img src="{% static 'img/testmonial/author.png' %}" alt="">
                                         </div>
-                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
+                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported
+                                            programmes to help alleviate human suffering.</p>
                                         <div class="testmonial_author">
                                             <h3>- Micky Mouse</h3>
                                         </div>
@@ -569,7 +462,8 @@
                                         <div class="author_thumb">
                                             <img src="{% static 'img/testmonial/author.png' %}" alt="">
                                         </div>
-                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
+                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported
+                                            programmes to help alleviate human suffering.</p>
                                         <div class="testmonial_author">
                                             <h3>- Tom Mouse</h3>
                                         </div>
@@ -584,7 +478,8 @@
                                         <div class="author_thumb">
                                             <img src="{% static 'img/testmonial/author.png' %}" alt="">
                                         </div>
-                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
+                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported
+                                            programmes to help alleviate human suffering.</p>
                                         <div class="testmonial_author">
                                             <h3>- Jerry Mouse</h3>
                                         </div>
@@ -790,8 +685,11 @@
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
                 </div>
@@ -800,19 +698,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </footer>
 
 
-  <!-- Modal -->
-  <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="serch_form">
-            <input type="text" placeholder="Search" >
-            <button type="submit">search</button>
+    <!-- Modal -->
+    <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="serch_form">
+                    <input type="text" placeholder="Search">
+                    <button type="submit">search</button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
     <!-- link that opens popup -->
-<!--     
+    <!--     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
 
@@ -837,9 +736,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="{% static 'js/plugins.js' %}"></script>
     <script src="{% static 'js/gijgo.min.js' %}"></script>
     <script src="{% static 'js/slick.min.js' %}"></script>
-   
 
-    
+
+
     <!--contact js-->
     <script src="{% static 'js/contact.js' %}"></script>
     <script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
@@ -853,8 +752,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         $('#datepicker').datepicker({
             iconsLibrary: 'fontawesome',
             icons: {
-             rightIcon: '<span class="fa fa-caret-down"></span>'
-         }
+                rightIcon: '<span class="fa fa-caret-down"></span>'
+            }
         });
     </script>
 </body>
