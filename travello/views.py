@@ -4,6 +4,7 @@ from .models import Destination
 # Create your views here.
 def index(request):
 
+    # access Destination class and  create object
     dest1 = Destination()
     dest1.name = 'California'
     dest1.desc = 'United State of America (California)'
