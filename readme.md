@@ -23,3 +23,5 @@ django-admin startproject project_name
 python manage.py runserver
 
 ```
+User - dheeraj73
+Pass - Dkumar@123
